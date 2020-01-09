@@ -1,0 +1,14 @@
+
+.ant-tabs-nav-wrap .ant-tabs-nav{
+    .ant-tabs-tab-active {
+        color: $main-theme-color;
+    }
+    .ant-tabs-ink-bar{
+        background-color: $main-theme-color;
+    }
+    .ant-tabs-tab{
+        &:active,&:hover{
+            color: $main-theme-color;
+        }
+    }
+} 

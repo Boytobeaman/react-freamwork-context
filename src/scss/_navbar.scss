@@ -1,0 +1,24 @@
+.navbar {
+   
+}
+
+header{
+    .ant-menu.ant-menu-dark .ant-menu-item-selected,
+    .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+        background-color: $main-theme-color;
+    }
+    .ant-menu-item{
+        padding: 0;
+        &.ant-menu-item-active,&.ant-menu-item-selected{
+            .nav-link{
+                &.active{
+                    background-color: $main-theme-color;
+                }
+            }
+        }
+        
+        .nav-link{
+            padding: 0 20px;
+        }
+    }
+}

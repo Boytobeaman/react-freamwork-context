@@ -1,0 +1,32 @@
+.ant-pagination{
+  .ant-pagination-item-active{
+    border-color: $main-theme-color;
+    a {
+      color: $main-theme-color;
+    }
+    &:hover,&:focus{
+      border-color: $main-theme-color;
+      a{
+        color: $main-theme-color;
+      }
+    }
+  }
+  .ant-pagination-item{
+    &:hover,&:focus{
+      border-color: $main-theme-color;
+      a{
+        color: $main-theme-color;
+      }
+    }
+  }
+  .ant-pagination-prev:focus,
+  .ant-pagination-next:focus,
+  .ant-pagination-prev:hover,
+  .ant-pagination-next:hover{
+    .ant-pagination-item-link{
+      color: $main-theme-color;
+      border-color: $main-theme-color;
+    }
+  } 
+}
+

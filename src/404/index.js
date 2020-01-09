@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
-import { APP_URL_NAME } from '../config/global';
+import { APP_URL_NAME } from '../config/router';
 
 class Testb extends Component {
   render(){

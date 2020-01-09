@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Button from "../Components/Button"
 
 class Login extends Component {
   render(){

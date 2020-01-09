@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { AppContext } from './AppContext';
-import { NavLink } from 'react-router-dom';
 import Header from '../Components/Header';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'antd/dist/antd.css';
 
 class Template extends Component {
   constructor(props) {

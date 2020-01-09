@@ -1,5 +1,6 @@
-import React, { Component, useContext } from 'react';
+import React, { useContext } from 'react';
 import { AppContext } from '../../MainPage/AppContext'
+import { Button, Badge } from 'antd';
 
 // class Button extends Component {
 //   constructor(props) {
@@ -21,12 +22,12 @@ import { AppContext } from '../../MainPage/AppContext'
 // }
 
 // useContext can only be use in function component
-function Button(){
+function MyButton(){
   const {toggleOnOff, buttonText} = useContext(AppContext)
   return (
-        <div className="button-wrap">
-          <button onClick={toggleOnOff}>{buttonText} </button>
-        </div>
+    <div className="button-wrap">
+      <Button onClick={toggleOnOff} type="primary">Shared global variable{' '} <Badge className="ml-2" count={buttonText} /></Button>
+    </div>
   )
 }
-export default Button;
+export default MyButton;
