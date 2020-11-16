@@ -49,7 +49,7 @@ class Header extends Component {
                 routes.map((route, index) => {
                   if(route.showInUI){
                     return (
-                      <NavItem>
+                      <NavItem key={index}>
                         <NavLink to={route.path} className='nav-link'>{route.showText}</NavLink>
                       </NavItem>
                     )
